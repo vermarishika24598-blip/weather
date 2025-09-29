@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.root1
+{
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center;    /* horizontal alignment */
+  justify-content: center; /* vertical alignment */
+  gap: 10px;              
+     
+   
+}
+#name
+{
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 10px;
+}
+#surname
+{
+    border-radius: 20px;
+    border: 2px solid; 
+    padding: 10px;
+}
+
+#age
+{
+     border-radius: 20px;
+    border: 2px solid;
+    padding: 10px;
+}
+h1{
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 100px;
+    text-transform: capitalize;
+}
+.root{
+    background-color: whitesmoke;
+    border: 20%;
+    border-radius: 20px;
+    height: 500px;
+    width: 800px;
+}
+button{
+   height: 50px;
+   background-color: blue;
+   cursor: pointer;
+   width: 800px;
+   border-radius: 20px;
+}
